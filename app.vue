@@ -2,12 +2,14 @@
   <div>
     <ul>
       <li>
-        <nuxt-page to="/about">about</nuxt-page>
+        <nuxt-link to="/about">about</nuxt-link>
       </li>
       <li>
-        <nuxt-page to="/">index</nuxt-page>
+        <nuxt-link to="/">index</nuxt-link>
       </li>
     </ul>
-    <nuxt-page />
+    <div style="border: thin solid #aaa">
+      <nuxt-page />
+    </div>
   </div>
 </template>
